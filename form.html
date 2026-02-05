@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Student Information Form</title>
+</head>
+<body>
+    <h2>Student Information Form</h2>
+     
+        <fieldset>
+            <legend>Personal Information</legend>
+            <label for="fullName">Full Name:</label>
+            <br>
+            <input type="text" id="fullName" name="fullName" placeholder="Enter your fullName"><br><br>
+            <label for="Email">Email:</label>
+            <br>
+            <input type="text" id="Email" name="Email" placeholder="Enter your Email"><br><br>
+            <label for="contactNumber">Contact Number:</label>
+            <br>
+            <input type="text" id="contactNumber" name="contactNumber" placeholder="Enter your contactNumber"><br><br>
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend>Subjects</legend>
+            <input type="checkbox" id="Mathematics" name="subject" value="Mathematics">
+            <label for="Mathematics">Mathematics</label><br>
+            <input type="checkbox" id="Physics" name="subject" value="Physics">
+            <label for="Physics">Physics</label><br>
+            <input type="checkbox" id="Computer Science" name="subject" value="Computer Science">
+            <label for="Computer Science">Computer Science"</label><br>
+            <input type="checkbox" id="Chemistry" name="subject" value="Chemistry">
+            <label for="Chemistry">Chemistry</label><br>
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend>Semester</legend>
+            <label for="semester">Select  semester:</label>
+            <br>
+            <select id="semester" 
+
+            name="semester">
+            <option value="semester1">--Select Semester</option>
+                <option value="semester1">--Semester 1</option>
+                <option value="semester2">Semester 2</option>
+                <option value="semester3">Semester 3</option>
+                <option value="semester4">Semester 4</option>
+                <option value="semester5">Semester 5</option>
+                <option value="semester6">Semester 6</option>
+            </select>
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend>Discipline</legend>
+            <label for="discipline">Select  discipline:</label><br>
+            <select id="discipline" name="discipline">
+                <option value="Select Discipline">--Select Discipline--</option>
+                <option value="bscs">BSCS</option>
+                <option value="bsit">BSIT</option>
+                <option value="bse">BSE</option>
+                <option value="bsee">BSEE</option>
+            </select>
+        </fieldset>
+        <br>
+        <input type="submit" value="Submit Form">
+    </form>
+</body>
+</html>
